@@ -1,0 +1,10 @@
+Three types of css :-
+
+1) inline css
+2) internal css
+3) external css
+
+
+identity to div:-
+1) class     while fetching classes in css we use " . " operator before class name
+2) id   while fetching id in css we use " # " operator before id name
