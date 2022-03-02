@@ -7,3 +7,34 @@ Three types of css :-
 identity to div:-
 1) class     while fetching classes in css we use " . " operator before class name
 2) id   while fetching id in css we use " # " operator before id name
+
+
+//--------------------------For adding new project to github ---------------------------------//
+
+git init  (Git initialize)
+git add .  (for adding entire project to github)
+git commit -m "SOME_COMMENT_HERE"    (Reference of uploaded project)
+git Branch -M main/master/development   (For creating branch)
+git remote add origin https://github.com/nilu10/dummy_1.git      (For adding online remote repository)
+git push -u origin BRANCH_NAME      (to upload file to github Repository)
+
+
+
+//--------------------------For Downloading new project to github ---------------------------------//
+
+git clone https://github.com/nilu10/Mern-class.git    (to download entire project)
+
+
+
+//--------------------------For Downloading changes of existing project from github ---------------------------------//
+git pull    (to update code from github)
+
+
+//--------------------------For uploading changes of existing project to github ---------------------------------//
+git init    (Git initialize)
+git add .    (for adding all the files from local system to upload)
+git commit -m "some comment here"     (Make files ready to be uploaded)
+git push -u origin BRANCH_NAME      (to upload file to github Repository)
+
+
+ 
