@@ -38,3 +38,18 @@ git push -u origin BRANCH_NAME      (to upload file to github Repository)
 
 
  
+
+ Html Methods
+
+ 1) GET Method :-
+
+    1) in get method we send data through url link.
+    2) We can send data in limited amount.
+    3) Data is less secure.
+
+2) POST Method
+
+    1) Data can be send through background.
+    2) Large amount of data can be sent.
+    3) Sensitive information such as passwords can be sent.
+    
