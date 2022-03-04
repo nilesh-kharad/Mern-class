@@ -14,14 +14,37 @@
 .images{
     color: blue;
 } */
-
+body{
+    /* background-color: aqua; */
+    /* background-image: url("/Mern-class/images/img1.jpeg"); */
+    background-repeat: no-repeat;
+}
 header{
     color: red;
 }
-
+.color1{
+    color: aqua;
+}
 footer{
     color: aqua;
 }
 #id1{
     color: blue;
+}
+.color{
+    /* color: blue; */
+    font-weight: bold;
+    font-style: italic;
+}
+.color1{
+    color: blueviolet;
+}
+
+.color-3{
+    /* background-color: bisque; */
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
