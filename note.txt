@@ -53,3 +53,9 @@ git push -u origin BRANCH_NAME      (to upload file to github Repository)
     2) Large amount of data can be sent.
     3) Sensitive information such as passwords can be sent.
     
+
+
+
+CDN (content delivery network)
+
+Icon library (Font awesome)
