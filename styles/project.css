@@ -3,6 +3,9 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    height: 2000px;
+}
 .header{
     padding-top: 20px;
     height: 50px;
@@ -57,4 +60,88 @@
     color: white;
     text-align: center;
     padding: 150px 0px;
+}
+.courses{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-courses{
+    display: flex;
+    flex-direction: row;
+}
+.single-course{
+    border: 1px solid rgba(73, 73, 73, 0.568);
+    width: 300px;
+    margin: 0px 20px;
+}
+.single-course>img{
+    width: 300px;
+}
+.single-course>button{
+    border: none;
+    background-color: #009450;
+    padding: 10px 15px;
+    color: white;
+    position: relative;
+    top: -25px;
+    left: 50px;
+}
+.para{
+    padding: 10px;
+    /* padding-top: 20px; */
+}
+.para>p{
+    margin-bottom: 20px;
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+}
+.arrows>hr{
+    transform: rotate(90deg);
+}
+.arr{
+    border: 1px solid;
+    border-radius: 100%;
+    margin: 50px 100px;
+    width: 20px;
+    text-align: center;
+}
+.question{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #2e3192;
+    color: white;
+}
+.facilities,.why-us{
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid; */
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+.fixed-position{
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+.why-us{
+    padding-top: 50px;
+}
+.btn>button{
+    margin-top: 50px;
+    border: 1px solid white;
+    background-color: #2e3192;
+    color: white;
+    padding: 15px 30px;
+}
+.head{
+    margin: 10px 0px;
 }
