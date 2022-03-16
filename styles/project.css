@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    /* border: 1px solid; */
 }
 body{
     height: 2000px;
@@ -144,4 +145,162 @@ body{
 }
 .head{
     margin: 10px 0px;
+}
+.gallary-head,.eventHead,.feedbackHead,.newsHead{
+    text-align: center;
+    margin: 50px;
+}
+.img-gallary{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img-gallary>img{
+    height: 200px;
+    width: 300px;
+}
+.parentSubEvent{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.eventImage>img{
+    width: 350px;
+}
+.eventText{
+    width: 230px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(219, 216, 216);
+    position: relative;
+    top: -220px;
+    left: 234px;
+    padding: 10px;
+}
+.subevents{
+    height: 300px;
+}
+.identity>img{
+    width: 100px;
+}
+.identity{
+    text-align: center;
+}
+.feedback{
+    width: 100%;
+    background: #323e54;
+}
+.feedback{
+    padding: 30px;
+}
+.feedbackHead>h2{
+    color: #12a84e;
+}
+.feedbackHead>h1{
+    color: white;
+}
+.client{
+    width: 700px;
+    position: relative;
+    left: 275px;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.subClient{
+    width: 665px;
+    padding: 20px;
+    border: 1px solid;
+}
+.news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.newsimg>img{
+    width: 500px;
+}
+.newsTest{
+    width: 400px;
+    border: 1px solid rgb(194, 191, 191);
+    position: relative;
+    left: 45px;
+    top: -50px;
+    background-color: white;
+    padding: 10px;
+}
+.seccondArrows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px ;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+.aboutLink,.recentContact,.course{
+    display: flex;
+    flex-direction: row;
+}
+.aboutLink,.recentContact{
+    justify-content: space-evenly;
+}
+.course{
+    margin: 10px 0px;
+}
+.about,.link,.recent,.contact{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.about>p,.about>h3,.about>i,.link>h3,.link>a,.recent>h3,.contact>h3{
+    padding: 15px 5px;
+    color: white;
+}
+.course>h3{
+    margin: 0px 10px;
+}
+.box{
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: red;
+}
+.form>input,.form>textarea{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 25px;
+    margin: 7px;
+}
+.form>button{
+    background-color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    margin: 7px;
+}
+.lastwalaFooter,.copyright{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+.hr{
+    width: 40%;
 }
