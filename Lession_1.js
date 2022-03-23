@@ -1,14 +1,43 @@
 
+// int a = 10.
+// float b = 10.3
+// char d = "c"
+// string c = "nilesh"
+// compiler based  
+// c,cpp, java, c#
+// interpreter based
+// python, js,
+// var
+// const
+// ECMA script ES6 2015
+// vanila javascript
+// frameworks     // react.js,node.js,vue.js, anguler.
+// let 
+// arrow function
+// template literals
+
+
+// operators
+function operators(){
+    var a = 10
+    // ++a pre Incr
+    // a++ post Incr
+    // --a pre decr.
+    // a-- post decr.
+    var b = --a
+    alert(b)
+}
+
+
+
+
 
 function add() {
     // let a = 15
     // let b = 10
-
     // c = a+b
     // // alert(c)
-    // console.log(c)
-
-
+    // console.log(c)   Error
 // Number
 // String
 // Object
@@ -17,10 +46,7 @@ function add() {
 // {
     // for()
     // let a =10
-
-
 // }
-
 // var or let
 var a = 10
 let b = 10
@@ -41,11 +67,6 @@ let person = {
     "Marks": 37
 }
 console.log(person)
-
-
-
-
-
 }
 // var a = 10
 

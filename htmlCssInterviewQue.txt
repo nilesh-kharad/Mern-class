@@ -1,0 +1,119 @@
+1. Are the HTML tags and elements the same thing?
+
+No. HTML elements are defined by a starting tag, may contain some content and a closing tag.For example, <h1>Heading 1</h1> is a HTML element but just <h1> is a starting tag and </h1> is a closing tag.
+
+2. What are tags and attributes in HTML?
+
+Tags are the primary component of the HTML that defines how the content will be structured/ formatted, whereas Attributes are used along with the HTML tags to define the characteristics of the element. For example, <p align=” center”>Interview questions</p>, in this the ‘align’ is the attribute using which we will align the paragraph to show in the center of the view.
+
+3) What are different types of lists in HTML?
+
+two types 1) ordered List 
+	2)unordered List
+	
+
+4)What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+
+Multiple elements in HTML can have the same class value, whereas a value of id attribute of one element cannot be associated with another HTML element.
+
+5)Describe HTML layout structure.
+Every web page has different components to display the intended content and a specific UI. But still, there are few things which are templated and are globally accepted way to structure the web page, such as:
+
+<header>: Stores the starting information about the web page.
+<footer>: Represents the last section of the page.
+<nav>: The navigation menu of the HTML page.
+<article>: It is a set of information.
+<section>: It is used inside the article block to define the basic structure of a page.
+<aside>: Sidebar content of the page.
+
+6)Can we display a web page inside a web page or Is nesting of webpages possible?
+
+Yes, we can display a web page inside another HTML web page. HTML provides a tag <iframe> using which we can achieve this functionality.
+
+<iframe src=”url of the web page to embed” />
+
+7) In how many ways can we position an HTML element?
+
+There are mainly 7 values of position attribute that can be used to position an HTML element:
+
+static: Default value. Here the element is positioned according to the normal flow of the document.
+absolute: Here the element is positioned relative to its parent element. The final position is determined by the values of left, right, top, bottom.
+fixed: This is similar to absolute except here the elements are positioned relative to the <html> element.
+relative: Here the element is positioned according to the normal flow of the document and positioned relative to its original/ normal position.
+initial: This resets the property to its default value.
+inherit: Here the element inherits or takes the property of its parent.
+
+
+8) In how many ways you can display HTML elements?
+
+inline: Using this we can display any block-level element as an inline element. The height and width attribute values of the element will not affect.
+block: using this, we can display any inline element as a block-level element. 
+inline-block: This property is similar to inline, except by using the display as inline-block, we can actually format the element using height and width values.
+flex: It displays the container and element as a flexible structure. It follows flexbox property.
+inline-flex: It displays the flex container as an inline element while its content follows the flexbox properties.
+grid: It displays the HTML elements as a grid container.
+none: Using this property we can hide the HTML element.
+
+9)What is the difference between “display: none” and “visibility: hidden”, when used as attributes to the HTML element.
+
+When we use the attribute “visibility: hidden” for an HTML element then that element will be hidden from the webpage but still takes up space. Whereas, if we use the “display: none” attribute for an HTML element then the element will be hidden, and also it won’t take up any space on the webpage.
+
+
+10) In how many ways can we specify the CSS styles for the HTML element?
+
+There are three ways in which we can specify the styles for HTML elements:
+
+Inline: Here we use the ‘style’ attribute inside the HTML element.
+Internal: Here we use the <style> tag inside the <head> tag. To apply the style we bind the elements using ‘id’ or ‘class’ attributes.
+External: Here we use the <link> tag inside <head> tag to reference the CSS file into our HTML code. Again the binding between elements and styles is done using ‘id’ or ‘class’ attributes.
+
+11) Difference between link tag <link> and anchor tag <a>?
+
+The anchor tag <a> is used to create a hyperlink to another webpage or to a certain part of the webpage and these links are clickable, whereas, link tag <link> defines a link between a document and an external resource and these are not clickable.
+
+12) What are forms and how to create forms in HTML?
+
+The HTML form is used to collect the user inputs. HTML provides a <form> tag to create forms. To take input from the user we use the <input> tag inside the form so that all collected user data can be sent to the server for processing. There are different input types like ‘button’, ‘checkbox’, ‘number’, ‘text’, ‘password’, ‘submit’ etc.
+
+<form action="/submit_data.php">
+   <label>Enter your name: </label>
+   <input type="text" name="name" /> 
+   <label>Enter Mobile number </label>
+   <input type="number" name="mobile_no"/>
+   <input type="submit" value="Submit">
+</form>
+
+
+13)Inline and block elements in HTML5?
+
+Inline:- Inline elements just take up the space that is absolutely necessary for the content and does not start from a new line.
+Example:- <span>, <a>, <strong>, <img>, <button>, <em>, <select>, <abbr>, <label>, <sub>, <cite>, <abbr>, <script>, <label>, <i>, <input>, <output>, <q>, etc.
+
+
+Block :- Block elements start on a new line and consume the full width of the page available.
+Example:- <div>, <p>, <header>, <footer>, <h1>...<h6>, <form>, <table>, <canvas>, <video>, <blockquote>, <pre>, <ul>, <ol>, <figcaption>, <figure>, <hr>, <article>, <section>, etc.
+
+14)What are Semantic Elements?
+
+Semantic elements are those which describe the particular meaning to the browser and the developer. Elements like <form>, <table>, <article>, <figure>, etc., are semantic elements.
+
+15) What are the methods to send data in HTML..?
+
+There are two types of method in html to send data.
+ 	1)GET
+ 	2)POST
+
+16) Diff. between GET and POST..?
+
+GET:-   Appends form-data into the URL in name/value pairs
+	The length of a URL is limited (about 3000 characters)
+	Never use GET to send sensitive data! (will be visible in the URL)
+	Useful for form submissions where a user wants to bookmark the result
+	GET is better for non-secure data, like query strings in Google.
+	
+POST:-  Appends form-data inside the body of the HTTP request (data is not shown in URL)
+	Has no size limitations
+	Form submissions with POST cannot be bookmarked
+
+
+
