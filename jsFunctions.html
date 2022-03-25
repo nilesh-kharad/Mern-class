@@ -10,10 +10,6 @@
     <title>js-Functions</title>
 </head>
 <style>
-    * {
-        /* border: 1px solid red; */
-    }
-
     .form-div {
         height: 650px;
         background-image: linear-gradient(to right, #343db8, #01c3ff);
@@ -22,13 +18,8 @@
     .form-data {
         background-color: aliceblue;
         padding: 100px;
-        border-top-left-radius: 20%;
-        border-bottom-left-radius: 20%;
+        border-radius: 50%;
     }
-
-    /* .row{
-    
-} */
 </style>
 
 <body>
@@ -47,22 +38,22 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <input type="text" name="fname" onclick="eventth()" value="nilesh" id="firstName"
-                                    class="form-control" placeholder="First name">
-                                <input type="text" name="lname" class="form-control" placeholder="Last Name">
-                                <input type="number" name="mobile" class="form-control" placeholder="Your Phone">
-                                <input type="password" name="password" class="form-control" placeholder="Password">
+                                    class="form-control mt-2" placeholder="First name">
+                                <input type="text" name="lname" class="form-control mt-2" placeholder="Last Name">
+                                <input type="number" name="mobile" class="form-control mt-2" placeholder="Your Phone">
+                                <input type="password" name="password" class="form-control mt-2" placeholder="Password">
                             </div>
                             <div class="col-md-6">
-                                <input type="email" name="mail" class="form-control" placeholder="Your Email">
-                                <select name="securityque" id="securityque" class="form-control">
+                                <input type="email" name="mail" class="form-control mt-2" placeholder="Your Email">
+                                <select name="securityque" id="securityque" class="form-control mt-2">
                                     <option value="Please Select your security question">Please Select your security
                                         question</option>
                                     <option value="Your first dog name">Your first dog name</option>
                                     <option value="Your parents house address">Your parents house address</option>
                                 </select>
-                                <input type="password" name="cpassword" class="form-control"
+                                <input type="password" name="cpassword" class="form-control mt-2"
                                     placeholder="Confirm Password">
-                                <input type="text" name="queAnswer" class="form-control"
+                                <input type="text" name="queAnswer" class="form-control mt-2"
                                     placeholder="Enter Your answer">
                             </div>
                         </div>
